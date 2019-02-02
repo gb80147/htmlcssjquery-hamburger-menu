@@ -1,0 +1,158 @@
+body{
+  color: white;
+}
+[color='blue']{
+  color: #2c3e50
+}
+[background-color='green']{
+  background-color: #18bc9c;
+}
+[background-color='blue']{
+  background-color: #2c3e50;
+}
+section{
+  padding: 100px 0;
+}
+h2{
+  font-size: 50px;
+  font-weight: bolder;
+}
+hr{
+  max-width: 240px;
+  border: 2px solid;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+/* NAVBAR */
+nav{
+  height: 100px;
+  margin: auto;
+  font-weight: 800;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 500;
+  line-height: 100px;
+}
+.nav-content{
+  width: 100%;
+}
+.nav-content::after{
+  clear: both;
+  content: '';
+  display: table;
+}
+.nav-logo{
+  float: left;
+  font-size: 34px;
+}
+.nav-options{
+  float: right;
+  font-size: 16px;
+}
+.nav-options span{
+  margin-left: 20px;
+}
+.nav-options a{
+  color: white
+}
+.nav-options-mini{
+  float: right;
+  display: none;
+  line-height: 0;
+  margin-top: 30px;
+}
+/* FINE NAVBAR */
+/* BUTTON */
+.btn{
+  color: white;
+  border: 2px solid white;
+}
+.btn-green{
+  color: white;
+  background-color: #18bc9c;
+}
+.btn-big{
+  padding: 20px 30px;
+  font-size: 20px;
+}
+.btn-menu, .btn-submit{
+  border: 0;
+  border-radius: 5px;
+}
+.btn-menu{
+  padding: 10px 10px;
+}
+.btn-social {
+  color: white;
+  font-size: 26px;
+  padding: 0 10px;
+}
+.about .btn i{
+  margin-right: 10px;
+}
+/* FINE BUTTON */
+.header img{
+max-width: 100%;
+margin-top: 100px;
+}
+.header h1{
+  font-size: 70px;
+  font-weight: 800;
+}
+.header span{
+  font-size: 28px;
+}
+.grid div{
+  margin-bottom: 20px;
+}
+.about p{
+  font-size: 16px;
+  text-align: left;
+}
+.about .row{
+  margin-bottom: 30px;
+}
+.contact-me h2{
+  text-align: center;
+}
+form input{
+  height: 80px;
+}
+form input, form textarea{
+  width: 100%;
+  font-size: 26px;
+  color: grey;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+form textarea{
+  margin-bottom: 20px;
+}
+.footer .col-md-4{
+  margin-bottom: 35px;
+}
+.footer span{
+  font-size: 16px;
+}
+.footer h3{
+  margin-bottom: 20px;
+}
+@media screen and (max-width:1000px){
+  .nav-options{
+    display: none;
+  }
+  .nav-options-mini{
+    display: block;
+  }
+  .header h1{
+    font-size: 50px;
+  }
+  .header span{
+    font-size: 22px;
+  }
+
+
+}
